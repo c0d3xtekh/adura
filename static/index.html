@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adura AI - Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>Adura <span class="ai-highlight">AI</span></h1>
+            <p class="subtitle">Your Affectionate Chat Companion 💖</p>
+        </header>
+        <div id="chat-window" class="chat-window"></div>
+        <div id="typing-indicator" class="typing-indicator" style="display:none;">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <form id="chat-form" autocomplete="off">
+            <input type="text" id="user-input" placeholder="Type your message..." required maxlength="200" />
+            <button type="submit">Send</button>
+        </form>
+        <footer>
+            <span>Created by <span class="credit">C0D3X TECH</span></span>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
